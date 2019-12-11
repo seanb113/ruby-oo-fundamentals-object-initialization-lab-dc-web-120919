@@ -4,12 +4,10 @@ class Dog
   end
   def breed=(breed)
     @breed = breed
+    :if => 
   end
   def breed
     @breed
-  end
-  if breed = nil
-    breed == "Mutt"
   end
 end
   
